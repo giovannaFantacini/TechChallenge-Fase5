@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Dados brutos e derivados (reproduzíveis via `make data`)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Artefatos de execução
+artifacts/figures/*
+!artifacts/figures/.gitkeep
+artifacts/models/*
+!artifacts/models/.gitkeep
+
+# MLflow local
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Ferramentas
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# SO / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# TXT
+roteiro_video.txt
